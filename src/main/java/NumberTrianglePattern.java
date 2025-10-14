@@ -12,9 +12,7 @@ public class NumberTrianglePattern {
             for (int j =1; j <= i; j++) {
                 System.out.print(j + " ");
             }
-            if (i < num) {
-                System.out.println();
-            }
+            System.out.println();
         }
     }
 }
