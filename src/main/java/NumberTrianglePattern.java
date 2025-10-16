@@ -15,9 +15,7 @@ public class NumberTrianglePattern {
                     System.out.print(j);
                 }
             }
-            if (i < num) {
                 System.out.println();
             }
         }
     }
-}
