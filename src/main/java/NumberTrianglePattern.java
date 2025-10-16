@@ -6,11 +6,14 @@ public class NumberTrianglePattern {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int num = sc.nextInt();
-        System.out.println();
         // TODO: Step 2 - Generate the number triangle pattern
         for (int i = 1; i <= num; i++) {
             for (int j =1; j <= i; j++) {
-                System.out.print(j + " ");
+                if (j < i) {
+                    System.out.print(j + " ");
+                } else {
+                    System.out.print(j);
+                }
             }
             if (i < num) {
                 System.out.println();
